@@ -62,6 +62,7 @@ class RegistrarActivity : AppCompatActivity() {
             //Si el registro es correcto
             Toast.makeText(this, "Registro exitoso", Toast.LENGTH_SHORT).show()
             //Cierra la pantalla actual y regresa a la pantalla anterior
+            //Prueba de git
             finish()
         }else{
             Toast.makeText(this, "Error al registrar", Toast.LENGTH_SHORT).show()
