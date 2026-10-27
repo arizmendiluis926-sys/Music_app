@@ -38,7 +38,7 @@ class DatabaseHelper(context: Context) : SQLiteOpenHelper(
             $COL_CORREO TEXT NOT NULL,
             $COL_PASSWORD TEXT NOT NULL
             )
-        """".trimIndent()
+        """.trimIndent()
 
         //Crear tabla de usuarios
         db?.execSQL(crearTablaUsuarios)
@@ -71,7 +71,7 @@ class DatabaseHelper(context: Context) : SQLiteOpenHelper(
         db.close()
 
         //Regresar el balor obtenido de la inserccion (Verdadero o falso)
-        return resultado != -1L
+        return resultado != -2L
 
 
     }
